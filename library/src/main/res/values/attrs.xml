@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RoundCornersImageView">
+        <attr name="cornerRadius" format="reference|dimension" />
+        <attr name="cornerColor" format="reference|color" />
+        <attr name="cornerShaderMode" format="boolean" />
+        <attr name="photo_padding" format="dimension" />
+        <attr name="photo_paddingLeft" format="dimension" />
+        <attr name="photo_paddingTop" format="dimension" />
+        <attr name="photo_paddingRight" format="dimension" />
+        <attr name="photo_paddingBottom" format="dimension" />
+    </declare-styleable>
+</resources>
