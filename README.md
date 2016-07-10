@@ -9,11 +9,5 @@ Features
 
 How to use
 ========
-<com.ttwishing.roundedcorners.library.RoundedCornersImageView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_centerInParent="true"
-    android:src="@drawable/test_photo"
-    app:cornerRadius="3dip" />
-
+see the example
 
