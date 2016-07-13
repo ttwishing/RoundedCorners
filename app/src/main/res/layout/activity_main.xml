@@ -9,6 +9,7 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:src="@drawable/test_photo"
+        app:cornerShaderMode="true"
         app:cornerRadius="3dip" />
 
 </RelativeLayout>
