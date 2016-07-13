@@ -54,7 +54,7 @@ public class RoundedCornersImageView extends ImageView implements ImageViewWithP
     private final Paint roundRectPaint = new Paint();
 
     private BitmapShader bitmapShader;
-    private final Matrix matrix = new Matrix();
+    private final Matrix imageMatrix = new Matrix();
     private final Paint paint = new Paint();
 
     public RoundedCornersImageView(Context context) {
@@ -319,9 +319,9 @@ public class RoundedCornersImageView extends ImageView implements ImageViewWithP
             if (width > 0.0F && height > 0.0F) {
                 float xScale = width / drawable.getIntrinsicWidth();
                 float yScale = height / drawable.getIntrinsicHeight();
-                this.matrix.reset();
-                this.matrix.setScale(xScale, yScale);
-                this.bitmapShader.setLocalMatrix(this.matrix);
+                this.imageMatrix.reset();
+                this.imageMatrix.setScale(xScale, yScale);
+                this.bitmapShader.setLocalMatrix(this.imageMatrix);
             }
         }
     }
