@@ -102,7 +102,7 @@ public class RoundedCornersImageView extends ImageView implements ImageViewWithP
                 DrawingCanvas drawingCanvas;
                 if (drawingCanvasRef != null) {
                     drawingCanvas = drawingCanvasRef.get();
-                    if (drawingCanvas == null) {//cond_3
+                    if (drawingCanvas == null) {
                         //需新建画板
                         drawingCanvas = DrawingCanvas.newInstance(getWidth(), getHeight());
                         this.drawingCanvasRef = new SoftReference(drawingCanvas);
